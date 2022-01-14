@@ -8,6 +8,7 @@ var corsConfig = {
 
 var app = express()
 
+//cors because api
 app.use(cors(corsConfig))
 
 app.listen(port,() => {
